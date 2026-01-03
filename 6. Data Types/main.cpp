@@ -222,7 +222,7 @@ int main(){
                         sizeof(p1) + sizeof(rect) + sizeof(favorite_color) +
                         sizeof(signed_num) + sizeof(unsigned_num) +
                         sizeof(short_var) + sizeof(int_var) + sizeof(long_long_var) +
-                        sizeof(inferred_int) + sizeof(inferred_double) + sizeof(another_int);
+                        sizeof(inferred_int) + sizeof(inferred_double);
 
     std::cout << "Total size of all variables in memory: " << total_size << " bytes" << std::endl;
     
