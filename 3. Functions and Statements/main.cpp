@@ -22,13 +22,25 @@ int main(int argc, char **argv){
     // Statement to call the function using the declared variables
     int sum = first_number + second_number;
 
-    //Statement to call the predefined function
+    //Statement to call the predefined function and passing declared variables as arguments
     int sum2 = addNumbers(first_number, second_number);
 
     // Statement to output the result
     std::cout << "The sum of " << first_number << " and " << second_number << " is: " << sum << std::endl; // Outputs the value of sum
-    std::cout << "The sum of 5 and 10 is: " << addNumbers(5, 10) << std::endl; // Directly calls the predefined function within the output statement
+    std::cout << "The sum of 5 and 10 is: " << addNumbers(5, 10) << std::endl; // Directly calls the predefined function within the output statement and passing literal values 5 and 10 as arguments.
     std::cout << "The sum of " << first_number << " and " << second_number << " is: " << sum2 << std::endl; // Outputs the value of sum2
+
+    /*
+    Different ways of printing data to the terminal
+
+    */
+   
+    // Using std::cout to print a line
+    std::cout << "Using std::cout to print a line." << std::endl;
+    // Using std::cerr to print an error message
+    std::cerr << "Using std::cerr to print an error message." << std::endl;
+    // Using std::clog to print a log message
+    std::clog << "Using std::clog to print a log message." << std::endl;
 
     return 0;
 }
