@@ -8,13 +8,11 @@ Postfix operators (var++, var--) increment or decrement the value of the variabl
 */
 
 #include <iostream>
-#include <cmath>
 
 int main() { 
     //Variable declarations
     int value {5};
 
-    //Regular increment and decrement
     //Increment by one
     int value1 = value + 1; //Standard increment
     std::cout << "Standard increment: The value is " << value << " incrementing by 1 using value = value + 1; the result is " << value1 << std::endl;
